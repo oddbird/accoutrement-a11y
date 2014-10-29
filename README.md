@@ -1,4 +1,8 @@
 accoutrement-a11y
 =================
 
-Accessibility
+Accessibility helpers. 
+
+## Installation
+
+``bower install accoutrement-a11y``
