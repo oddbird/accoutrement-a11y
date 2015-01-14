@@ -6,7 +6,7 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/oddbird/accoutrement-queries.git"
-  }
+  },
   "author": "Eric M Suzanne <eric@oddbird.net>",
   "license": "BSD-3-Clause",
   "scripts": {
