@@ -1,11 +1,15 @@
 {
-  "name": "accoutrement-queries",
-  "version": "1.0.0",
-  "description": "Accessibility helpers",
-  "homepage": "https://github.com/oddbird/accoutrement-queries",
+  "name": "accoutrement-a11y",
+  "version": "1.0.2",
+  "description": "Sass accessibility utilities.",
+  "homepage": "https://github.com/oddbird/accoutrement-a11y",
   "repository": {
     "type": "git",
-    "url": "git://github.com/oddbird/accoutrement-queries.git"
+    "url": "git://github.com/oddbird/accoutrement-a11y.git"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "sass-true": "^2.0.0-beta.1"
   },
   "author": "Eric M Suzanne <eric@oddbird.net>",
   "license": "BSD-3-Clause",

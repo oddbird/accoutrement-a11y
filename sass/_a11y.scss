@@ -1,24 +1,27 @@
-@mixin _is-hidden--position {
+// Accessibility
+// =============
+
+@mixin is-hidden--position {
+  left: -9999px;
   position: absolute;
   top: -9999px;
-  left: -9999px;
 }
 
-@mixin _is-hidden--clip {
-  position: absolute;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
+@mixin is-hidden--clip {
   clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
 }
 
 @mixin is-hidden(
   $method: clip
 ) {
   @if $method == position {
-    @include _is-hidden--position;
+    @include is-hidden--position;
   } @else {
-    @include _is-hidden--clip;
+    @include is-hidden--clip;
   }
 }
 
