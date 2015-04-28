@@ -8,7 +8,7 @@
     "url": "git://github.com/oddbird/accoutrement-a11y.git"
   },
   "author": "Eric M Suzanne <eric@oddbird.net>",
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "scripts": {
     "test": "node_modules/.bin/mocha"
   },
