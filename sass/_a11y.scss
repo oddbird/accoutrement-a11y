@@ -1,6 +1,8 @@
 // Accessibility
 // =============
 
+@warn '`accoutrement-a11y` has merged into `accoutrement-layout` and will be discontinued.';
+
 @mixin is-hidden--position {
   left: -9999px;
   position: absolute;

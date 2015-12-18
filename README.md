@@ -1,8 +1,8 @@
 accoutrement-a11y
 =================
 
-Accessibility helpers. 
+This module has been merged into
+[accoutrement-layout][layout]
+and will be removed.
 
-## Installation
-
-``bower install accoutrement-a11y``
+[layout]: https://github.com/oddbird/accoutrement-layout
